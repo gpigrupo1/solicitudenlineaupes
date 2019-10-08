@@ -9,7 +9,7 @@ $this->title = 'Modulo Ingreso en linea';
     <div class="jumbotron">
 
         
-    <img src="http://localhost:8080/solicitudupes/views/site/images/logoupesico.png" height="200px">
+    <img src="http://localhost:8080/solicitudenlinea/views/site/images/logoupesico.png" height="200px">
 
     <div class="row"></div>
 
