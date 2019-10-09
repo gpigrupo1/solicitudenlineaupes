@@ -9,13 +9,13 @@ $this->title = 'Modulo Ingreso en linea';
     <div class="jumbotron">
 
         
-    <img src="http://localhost:8080/solicitudenlinea/views/site/images/logoupesico.png" height="200px">
+    <img src="http://www.upess.edu.sv/solicitudenlinea/views/site/images/logoupesico.png" height="200px">
 
     <div class="row"></div>
 
         <p class="lead">Modulo Ingreso en linea - UPES - GPI Grupo 1 - 2019</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://localhost:8080/solicitudenlinea/web/index.php?r=site%2Flogin">Ingresar</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://www.upess.edu.sv/solicitudenlinea/web/index.php?r=site%2Flogin">Ingresar</a></p>
     </div>
 
 <!--

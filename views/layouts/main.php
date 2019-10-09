@@ -34,7 +34,7 @@ AppAsset::register($this);
     NavBar::begin([
         'brandLabel' => 'Universidad Politecnica de El Salvador',
         //'brandUrl' => Yii::$app->homeUrl,
-        'brandUrl' => 'http://localhost:8080/solicitudenlinea/web',
+        'brandUrl' => 'http://www.upess.edu.sv/solicitudenlinea/web',
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],

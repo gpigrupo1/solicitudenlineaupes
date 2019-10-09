@@ -136,13 +136,13 @@ class RegalumnoController extends Controller
                 exit("<strong>Ha ocurrido un error tratando de conectarse con el origen de datos.</strong>");
             }	
             
-            /*
+            
             // Query of SQL to the table what we need to do in "regalumno"
             $sql="INSERT INTO regalumno(id_alumno,nombre1,nombre2,nombre3,apellido1,apellido2,apellido_c,depto_naci,munic_naci,fecha_naci,nacionalid,sexo,estado_civ,telefono_f,telefono_m,dui,tipo_disca,direc_resi,depto_res,munic_res,email,acceso_pc,acceso_int,forma_fina,otros_fina,id_inst_se,ciudad_est,depto_est_,munic_est_,tipo_insti,ano_gradua,titulo_obt,grado_acad,especialid,empresa_tr,telefono_t,extension,direccion_,email_trab,forma_ingr,id_educ_su,depto_est2,munic_est2,tipo_est_s,carrera_pr,num_mat_ap,id_estudio,fecha_soli,usuario_ad,fecha_adic,usuario_mo,fecha_modi) 
-            VALUES('$id_alumno','$nombre1','$nombre2','$nombre3','$apellido1','$apellido2','$apellido_casada','$depto_nacimiento','$munic_nacimiento','$fecha_nacimiento','$nacionalidad','$sexo','$estado_civil','$telefono_fijo','$telefono_movil','$dui','$tipo_discapacidad','$direc_residencia','$depto_res','$munic_res','$email','$acceso_pc','$acceso_internet','$forma_financiamiento','$otros_financiamientos','$id_inst_sec','$ciudad_est_sec','$depto_est_sec','$munic_est_sec','$tipo_institucion_sec','$ano_graduacion_sec','$titulo_obtenido_sec','$grado_academico','$especialidad_acad','$empresa_trabajo','$telefono_trabajo','$extension','$direccion_trabajo','$email_trabajo','$forma_ingreso','$id_educ_sup','$depto_est_sup','$munic_est_sup','$tipo_est_sup','$carrera_procedencia','$num_mat_aprobadas','$id_estudio','$fecha_solicitud','$usuario_adicion','$fecha_adicion','$usuario_modificacion','$fecha_modificacion')";
-            */
+            VALUES($id_alumno,".$model['nombre1'].",".$model['nombre2'].",".$model['nombre3'].",".$model['apellido1'].",".$model['apellido2'].",".$model['apellido_c'].",".$model['depto_naci'].",".$model['munic_naci'].",".$model['fecha_naci'].",".$model['nacionalid'].",".$model['sexo'].",".$model['estado_civ'].",".$model['telefono_f'].",".$model['telefono_m'].",".$model['dui'].",".$model['tipo_disca'].",".$model['direc_resi'].",".$model['depto_res'].",".$model['munic_res'].",".$model['email'].",".$model['acceso_pc'].",".$model['acceso_int'].",".$model['forma_fina'].",".$model['otros_fina'].",".$model['id_inst_se'].",".$model['ciudad_est'].",".$model['depto_est_'].",".$model['munic_est_'].",".$model['tipo_insti'].",".$model['ano_gradua'].",".$model['titulo_obt'].",".$model['grado_acad'].",".$model['especialid'].",".$model['empresa_tr'].",".$model['telefono_t'].",".$model['extension'].",".$model['direccion_'].",".$model['email_trab'].",".$model['forma_ingr'].",".$model['id_educ_su'].",".$model['depto_est2'].",".$model['munic_est2'].",".$model['tipo_est_s'].",".$model['carrera_pr'].",".$model['num_mat_ap'].",".$model['id_estudio'].",".$model['fecha_soli'].",".$model['usuario_ad'].",".$model['fecha_adic'].",".$model['usuario_mo'].",".$model['fecha_modi'].")";
+            
 
-            $sql="INSERT INTO alumnos(id_alumno,nombre1,apellido1) VALUES ('$id_alumno','$nombre1','$apellido1')";
+            //$sql="INSERT INTO alumnos(id_alumno,nombre1,apellido1) VALUES ('$id_alumno','$nombre1','$apellido1')";
 
             // generamos la tabla mediante odbc_result_all(); utilizando borde 1
             // $result=odbc_exec($cid,$sql) or die(exit("Error en odbc_exec"));
